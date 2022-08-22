@@ -1,0 +1,26 @@
+Problem 3 - Data Analysis
+-------------------------
+For every year, for every weather station, calculate:
+
+* Average maximum temperature (in degrees Celsius)
+* Average minimum temperature (in degrees Celsius)
+* Total accumulated precipitation (in centimeters)
+
+Ignore missing data when calculating these statistics.
+
+Design a new data model to store the results. Use NULL for statistics that cannot be calculated.
+
+Your answer should include the new model definition as well as the code used to calculate the new values and store them in the database.
+
+---
+----
+
+Created Model and ingestion script for Stat data
+
+path: src/
+
+COMMAND:
+
+CD src
+
+python generate_matrics.py

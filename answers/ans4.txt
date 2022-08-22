@@ -1,0 +1,34 @@
+Problem 4 - REST API
+--------------------
+Choose a web framework (e.g. Flask, Django REST Framework). Create a REST API with the following GET endpoints:
+
+/api/weather
+/api/yield
+/api/weather/stats
+
+Each endpoint should return a JSON-formatted response with a representation of the ingested data in your database. Allow clients to filter the response by date and station ID (where present) using the query string. Data should be paginated.
+
+Your answer should include all files necessary to run your API locally, along with any unit tests.
+
+----
+
+Created Flask App for weather, yield and stat data
+
+path: src/
+
+COMMAND:
+
+CD src
+
+python app.py
+
+Usage:
+
+Weather_data:
+http://127.0.0.1:5000/api/weather/?station=USC00110072
+
+Yield_data:
+http://127.0.0.1:5000/api/yield/?year=1988
+
+Stats:
+http://127.0.0.1:5000/api/weather/stats/

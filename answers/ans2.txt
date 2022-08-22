@@ -1,0 +1,15 @@
+Problem 2 - Ingestion
+---------------------
+Write code to ingest the weather and yield data from the raw text files supplied into your database, using the models you designed. Check for duplicates: if your code is run twice, you should not end up with multiple rows with the same data in your database. Your code should also produce log output indicating start and end times and number of records ingested.
+
+----
+
+Created Ingestion script for Weather_data and Yield
+
+path: src/
+
+COMMAND:
+
+CD src
+
+python insert_records.py
